@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { fetchOompaLoompasIfNeeded } from "../../store/oompaLoompa/oompaLoompaThunks";
 import InfiniteScroll from "react-infinite-scroll-component";
-import useFilter from "../../hooks/useFilter";
+import { useFilter } from "../../hooks/useFilter";
 import { FilterBar } from "../FilterBar/FilterBar";
 import { OompaLoompaItem } from "../OompaLoompaItem/OompaLoompaItem";
 import "./OompaLoompasList.css";

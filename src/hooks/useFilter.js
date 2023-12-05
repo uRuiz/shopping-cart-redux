@@ -1,6 +1,6 @@
 import { useState, useMemo } from "react";
 
-const useFilter = (initialData) => {
+export const useFilter = (initialData) => {
   const [filter, setFilter] = useState("");
 
   const filteredData = useMemo(() => {
@@ -18,5 +18,3 @@ const useFilter = (initialData) => {
 
   return { filteredData, updateFilter };
 };
-
-export default useFilter;
