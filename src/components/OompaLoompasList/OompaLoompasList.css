@@ -1,0 +1,45 @@
+.oompaLoompas-description-header {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.oompaLoompas-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  justify-content: center;
+}
+
+.filter-bar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: relative;
+  margin-left: 20px;
+}
+
+.filter-bar input {
+  padding: 10px;
+  padding-right: 40px;
+  width: 30%;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  font-size: 1em;
+  background: url("../assets/ic_search.png") no-repeat right 10px center;
+  background-size: 20px;
+}
+
+@media (max-width: 600px) {
+  .oompaLoompas-container {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  }
+
+  .filter-bar {
+    width: 90%;
+  }
+
+  .filter-bar input {
+    width: 90%;
+  }
+}

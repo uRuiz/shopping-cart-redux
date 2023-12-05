@@ -1,0 +1,29 @@
+.oompaLoompaItem {
+  border: 1px solid #eaeaea;
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: center;
+  cursor: pointer;
+}
+
+.oompaLoompaImage {
+  width: 100%;
+  height: auto;
+}
+
+.oompaLoompaName {
+  font-size: 1.2em;
+  margin: 0.5em 0;
+}
+
+.oompaLoompaProfession {
+  color: #777;
+  font-size: 1em;
+  margin-bottom: 0.5em;
+}
+
+.oompaLoompaGender {
+  color: #777;
+  font-size: 0.8em;
+  margin-bottom: 0.5em;
+}
