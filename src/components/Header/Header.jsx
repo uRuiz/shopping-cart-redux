@@ -6,11 +6,15 @@ export const Header = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="header">
-      <div className="header-icon" onClick={() => navigate("/")}>
+    <header className="header">
+      <div
+        className="header-icon"
+        onClick={() => navigate("/")}
+        data-testid="header-icon"
+      >
         <img src={logo} alt="Oompa Loompa's Crew" />
         <div className="header-title">Oompa Loompa&apos;s Crew</div>
       </div>
-    </div>
+    </header>
   );
 };
